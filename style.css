@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    width: 100%;
+    font-family:'poppins',sans-serif;
+  }
+
+  section{
+    min-height: 100vh;/*---device yoda full height yayum eduthukum---*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*-----------------nav bar-----------------------------------------------------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+  .bold{    /*---manitechwold---- name---*/
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  li{
+    padding: 10px;
+  }
+
+  .nav-link{
+    font-size: 15px;
+    font-weight: bold ;
+    border: 2px solid transparent;
+  }
+
+  .nav-link:hover{
+    border: 2px solid ;
+    color: rgb(4, 4, 4);
+    background-color: rgb(244, 171, 246);
+    transition: .1s;
+  }
+  
+
+  /*--------------------Home-----------------------------------*/
+
+
+  span{
+    color: rgb(93, 93, 228);/*-------ManiTechWorld   in a blue color*/
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p{
+    font-size:20px;
+  }
+
+  /*---------------------About-----------------------------------------*/
+
+  #about  img{
+    width: 25rem;/*------------1 rem = 10pixel--------------*/
+    height: 25rem;
+    border-radius: 45px;
+  }
+  
+ 
+
+  /*--------------services-----------------*/
+  .card {
+    background-color:rgb(229, 183, 191);
+  }
+
+  .card img{
+    height: 300px;
+    transition: 1s;
+  }
+
+  .inner{
+    overflow: hidden;
+  }
+
+  .card img:hover{
+    transform:scale(1.5);
+    
+  }
