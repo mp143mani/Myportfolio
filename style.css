@@ -10,10 +10,11 @@
   }
 
   section{
-    min-height: 100vh;/*---device yoda full height yayum eduthukum---*/
+    /* min-height: 100vh;---device yoda full height yayum eduthukum--- */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
 
   /*-----------------nav bar-----------------------------------------------------------*/
@@ -52,12 +53,17 @@
 
   span{
     color: rgb(93, 93, 228);/*-------ManiTechWorld   in a blue color*/
-    font-weight: bold;
+    font-weight:100;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
   p{
     font-size:20px;
+
+  }
+  .img-fluid{
+    width: 600px;
+    height: 500px;
   }
 
   /*---------------------About-----------------------------------------*/
@@ -87,4 +93,9 @@
   .card img:hover{
     transform:scale(1.5);
     
+  }
+
+  /* ------------achieve-------------- */
+  .head{
+    text-align: center;
   }
