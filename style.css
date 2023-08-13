@@ -25,7 +25,7 @@
     z-index: 10;
 }
 
-  .bold{    /*---manitechwold---- name---*/
+  .bold{    /*---my name---- name---*/
     font-size: 35px;
     font-weight: bold;
   }
@@ -35,15 +35,17 @@
   }
 
   .nav-link{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold ;
     border: 2px solid transparent;
+    color: white;
   }
 
   .nav-link:hover{
     border: 2px solid ;
+    border-radius: 10px;
     color: rgb(4, 4, 4);
-    background-color: rgb(244, 171, 246);
+    background-color: rgb(255, 0, 212);
     transition: .1s;
   }
   
@@ -54,7 +56,7 @@
   padding-top: 80px;
 }
   span{
-    color: rgb(93, 93, 228);/*-------ManiTechWorld   in a blue color*/
+    color: rgb(93, 93, 228);/*-------Mani   in a blue color*/
     font-weight:100;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
@@ -76,12 +78,20 @@
     border-radius: 45px;
   }
   
+  
+  #about{
+    padding-top: 100px;
+  }
+
  
 
-  /*--------------services-----------------*/
+  /*--------------project-----------------*/
   .card  {
     background-color:rgba(4, 4, 4, 0.578);
     
+  }
+  #projects{
+    padding-top: 100px;
   }
 
  
@@ -118,14 +128,9 @@
      */
    
   }
-  #projects{
-    padding-top: 100px;
-  }
+ 
 
-  #about{
-    padding-top: 100px;
-  }
-
+  /* /------------skills------------------------ */
   #skills{
     padding-top: 100px;
   }
