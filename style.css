@@ -87,8 +87,9 @@
 
   /*--------------project-----------------*/
   .card  {
-    background-color:rgba(4, 4, 4, 0.578);
+    background-color:#f7f7f7;
     
+  
   }
   #projects{
     padding-top: 100px;
@@ -150,6 +151,7 @@
   text-align: center;
  }
 
+/* /---------------------contact----------------- */
 
 
  /* /--------------footer---------------------------/ */
